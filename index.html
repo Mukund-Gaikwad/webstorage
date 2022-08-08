@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <!-- HTML and HTML5 -->
+    <!-- 1) HTML5 is more symantic
+    2) HTML5 has multimedia support >> video,audio,picture >> HTML 4 flash
+    3) vector graphics >> HTML SVG and Canvas
+
+    HTML5 gives us some API's
+        >> Webstorages    most imp.
+        >> Fetch          most imp
+        >> Geolocation
+        >> Drag and Drop
+        >> Clipbord
+        >> File
+ -->
+    <!-- Webstorages >> is a API given by HTML5 and it has two types i.e localstorage and sessionstorage.
+           before webstorages we use  Cookies >> 26kb of data  can be stored in cookies.
+            In webstorages >> around 5 mb of data can be stored.
+                Localstorage >> Data stored in localstorage will be forever there,we have to remove it manually.
+                Sessionstorage >> Data stored in sessionstorage will get removed as soon as session expire
+
+    -->
+    <!-- JSON >> javascript object Notation 
+            >> keys are stringify
+            >> not require to give quoma(,)to last key value pair
+    -->
+ <h1 class="bg-primary text-white p-4">
+    Web Storages
+ </h1>
+ <hr>
+ <p id="data">
+
+ </p>
+ <a href="index2.html" target="_blank">
+    Go to 2nd page
+ </a>
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            <table class="table table-bordered">
+                <thead>
+                    <th>Sr no</th>
+                    <th>Id</th>
+                    <th>UserId</th>
+                    <th>Title</th>
+                    <th>Msg</th>
+                </thead>
+                <tbody id="info">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+ </div>
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
